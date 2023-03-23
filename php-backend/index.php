@@ -1,8 +1,8 @@
 <?php
-    if(!true) {
-       echo "Zweite Hallo Welt!"; 
+    if(isset($_POST["helmet"])) {
+       echo "Super du hattest einen Helm an!"; 
     } else {
-        echo "Nicht Hallo Welt!";
+        echo "Warum trägst du kein Helm?";
     }
     
 ?>
